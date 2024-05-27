@@ -1,0 +1,104 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: teal;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+.widget-container {
+  width: 500px;
+  height: 500px;
+  background-color: #87acc9;
+  border-radius: 10px;
+  text-align: center;
+  color: rgb(46, 46, 46);
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.face {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  background-color: #fcdba6;
+}
+
+.eye-container {
+  position: relative;
+  left: 32px;
+  top: 35px;
+  display: flex;
+  width: 85px;
+  justify-content: space-between;
+}
+
+.eye {
+  background-color: rgb(68, 1, 68);
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+.mouth-container {
+  position: relative;
+  width: 75px;
+  left: 38px;
+  top: 50px;
+}
+
+.happy-mouth {
+  width: 75px;
+  height: 37px;
+  background-color: rgb(68, 1, 68);
+  border-radius: 10px 10px 150px 150px;
+}
+
+.indifferent-mouth {
+  position: relative;
+  top: 5px;
+  width: 75px;
+  height: 20px;
+  background-color: rgb(68, 1, 68);
+  border-radius: 10px;
+}
+
+.sad-mouth {
+  width: 75px;
+  height: 37px;
+  background-color: rgb(68, 1, 68);
+  border-radius: 150px 150px 10px 10px;
+}
+
+.ratings-container {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.rating-container div {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+}
+
+#bad {
+  background-color: brown;
+  cursor: pointer;
+}
+
+#okay {
+  background-color: aquamarine;
+  cursor: pointer;
+}
+
+#good {
+  background-color: green;
+  cursor: pointer;
+}
